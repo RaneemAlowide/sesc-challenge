@@ -1,0 +1,28 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    height: 100vh;
+    margin: 0;
+    font-weight: bolder;
+}
+
+div {
+    text-align: center;
+    max-width: 600px;
+    margin: 100px auto; /* Center horizontally and add space between elements */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+p {
+    margin: 0; /* Remove default margin for the <p> element */
+}
+
+* {
+    cursor: default;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.inv {
+    color: white;
+}
